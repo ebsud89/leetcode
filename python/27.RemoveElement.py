@@ -1,9 +1,5 @@
 class Solution:
     def removeElement(self, nums, val) -> int:
-        """
-        Runtime: faster than 99.16% of Python3
-        Memory Usage : faster than 5.09% of Python3
-        """
         idx = 0
         while nums.count(val):
             nums.remove(val)
