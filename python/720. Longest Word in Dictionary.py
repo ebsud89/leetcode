@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def longestWord(self, words: List[str]) -> str:
         idx, i, wlen = 0, 0, 0
@@ -15,8 +16,9 @@ class Solution:
 
         return words[idx]
 
+
 s = Solution()
-words = ["w","wo","wor", "world123","worl", "world"]
+words = ["w", "wo", "wor", "world123", "worl", "world"]
 print(s.longestWord(words))
-words = ["a","banana","app","appl","ap","apply","apple"]
+words = ["a", "banana", "app", "appl", "ap", "apply", "apple"]
 print(s.longestWord(words))
