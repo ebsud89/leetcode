@@ -10,6 +10,6 @@ class Solution:
                 last = stack.pop()
                 answer[last] = i - last
             stack.append(i)
-
+        from typing import List
         return answer
 
