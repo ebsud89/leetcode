@@ -39,4 +39,19 @@ ln11.next = ln14
 ln15 = ListNode(5)
 ln14.next = ln15
 tl = [ln11]
-print(s.mergeKLists(tl))
+
+tla = [1, 2]
+tlb = [2]
+print(tla+tlb+[3])
+print([tla[-2]] + [tla[0]])
+
+class TestNode():
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+tna = TestNode(1)
+tnb = TestNode(2)
+tna.next = tnb
+
+print(tna.next.val)
