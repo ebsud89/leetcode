@@ -12,3 +12,5 @@ stra2, strb2 = "abc", "bca"  # 2
 stra3, strb3 = "abac", "baca"  # 2
 
 stra4, strb4 = "aabc", "abca"  # 2
+
+s = Solution()
